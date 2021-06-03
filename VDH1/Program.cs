@@ -8,7 +8,9 @@ namespace VDH1
         // Code momments.
         static void Main(string[] args)
         {
+            Students.Kasper.KS ks = new Students.Kasper.KS();
             Console.WriteLine((new Niels()).FullName);
+            Console.WriteLine(ks.GetName());
         }
     }
 }
